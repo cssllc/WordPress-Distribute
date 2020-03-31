@@ -6,7 +6,7 @@
 defined( 'ABSPATH' ) || die();
 
 /**
- * Class: BigVision_ACF
+ * Class: CSSLLC_ACF
  */
 class CSSLLC_ACF {
 
