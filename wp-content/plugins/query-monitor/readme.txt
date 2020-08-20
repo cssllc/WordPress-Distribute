@@ -3,7 +3,7 @@ Contributors: johnbillion
 Tags: debug, debug-bar, debugging, development, developer, performance, profiler, queries, query monitor, rest-api
 Requires at least: 3.7
 Tested up to: 5.5
-Stable tag: 3.6.3
+Stable tag: 3.6.4
 License: GPLv2 or later
 Requires PHP: 5.3
 
@@ -112,6 +112,10 @@ Yes. You can enable this on the Settings panel.
 No, I do not accept donations. If you like the plugin, I'd love for you to [leave a review](https://wordpress.org/support/view/plugin-reviews/query-monitor). Tell all your friends about the plugin too!
 
 ## Changelog ##
+
+### 3.6.4 ###
+
+* Correct an error introduced in 3.6.3 with the extra early error handling (ironic).
 
 ### 3.6.3 ###
 
@@ -456,12 +460,3 @@ New features! Read about them here: https://querymonitor.com/blog/2019/02/new-fe
 * More defensive CSS.
 * Fix the size of the expand/contract buttons.
 * Avoid showing two unnecessary functions in the call stack for textdomain loading.
-
-### 2.13.4 ###
-
-* Highlight the main query to make it easier to find.
-* Allow filtering the db queries list to see just the main query.
-* Visual fixes for buttons, toggles, and filters.
-* Add some missing i18n.
-* Add some missing table row text.
-* Correct the Drop-in Plugins URL for network admin
