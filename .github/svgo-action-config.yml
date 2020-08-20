@@ -1,0 +1,5 @@
+svgo-options: .github/svgo-options.yml
+comment: true
+commit:
+  title: optimize svgs
+  body: performed by SVGO GitHub Action
