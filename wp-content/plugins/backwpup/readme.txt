@@ -4,7 +4,7 @@ Tags: backup, database backup, cloud backup, restore, wordpress backup
 Requires at least: 3.9
 Tested up to: 5.3
 Requires PHP: 5.6
-Stable tag: 3.7.0
+Stable tag: 3.7.1
 License: GPLv2+
 
 Schedule complete automatic backups of your WordPress installation. Decide which content will be stored (Dropbox, S3…). This is the free version
@@ -158,6 +158,12 @@ Yes. You need to have writing access to the wp-config.php file (usually residing
 [You can find a detailed tutorial in the BackWPup documentation.](https://backwpup.com/docs/install-backwpup-pro-activate-licence/)
 
 == Changelog ==
+
+= Version 3.7.1 =
+Release Date: March 30, 2020
+
+* Fixed: Error Notices CSS is loaded on all pages and overwrite the color of other plugins notices
+* Updated: License system update for premium version (Pro version)
 
 = Version 3.7.0 =
 Release Date: Nov 27, 2019

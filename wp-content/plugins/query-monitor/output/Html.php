@@ -459,6 +459,8 @@ abstract class QM_Output_Html extends QM_Output {
 				return 'atom://open/?url=file://%f&line=%l';
 			case 'sublime':
 				return 'subl://open/?url=file://%f&line=%l';
+			case 'textmate':
+				return 'txmt://open/?url=file://%f&line=%l';
 			case 'netbeans':
 				return 'nbopen://%f:%l';
 			default:
@@ -470,7 +472,7 @@ abstract class QM_Output_Html extends QM_Output {
 		if ( ! isset( self::$file_link_format ) ) {
 			$format = ini_get( 'xdebug.file_link_format' );
 
-			if ( isset( $_COOKIE[ QM_EDITOR_COOKIE ] ) ) {
+			if ( defined( 'QM_EDITOR_COOKIE' ) && isset( $_COOKIE[ QM_EDITOR_COOKIE ] ) ) {
 				$format = self::get_editor_file_link_format(
 					$_COOKIE[ QM_EDITOR_COOKIE ],
 					$format
