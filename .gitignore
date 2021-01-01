@@ -1,5 +1,6 @@
 *.log
 .DS_Store
 /public
+/sql
 /wp-config.php
 /wordpress/wp-content/uploads
